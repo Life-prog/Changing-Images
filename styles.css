@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+input {
+    width: 193px;
+    margin-left: 115px;
+    margin-top: 0px;
+    position: relative;
+    padding: 7px;
+    background-color: lightgreen;
+    border: 1px solid #01BAEF;
+    color:black;
+}
+
+button {
+    cursor: pointer;
+    position: relative;
+    margin-left: 0px;
+    margin-top: 0px;
+    background: #FBFBFF;
+    padding: 7px;
+    border: 1px solid #01BAEF;
+    color: #040F16;
+}
+.times {
+    position: static;
+    color: white;
+    
+    font-size: 50px;
+    margin-left: 42.3%;
+    margin-top: 50px;
+    font-family: fantasy;
+}
+
+.arrow {
+        position: static;
+    color: white;
+    
+    font-size: 50px;
+    margin-left: 37%;
+    margin-top: -355px;
+    font-family: fantasy;
+}
+/*Нужно для фиксирования элемента(костыль): right: calc((100vw - 1000px) / 2);*/
